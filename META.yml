@@ -20,11 +20,11 @@ no_index:
 provides:
   Cache::LRU::WithExpires:
     file: lib/Cache/LRU/WithExpires.pm
-    version: 0.01
+    version: 0.02
 requires:
   Cache::LRU: 0
   parent: 0
   perl: 5.008001
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
